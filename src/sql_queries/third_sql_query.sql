@@ -1,6 +1,6 @@
 SELECT
-    d.id AS debtor_id,
     d.name AS debtor_name,
+    d.inn AS inn,
     COALESCE(SUM(mo.total_sum), 0) AS TotalSum,
     COALESCE(SUM(mo.total_sum - mo.debt_sum), 0) AS DebtSum,
     CASE

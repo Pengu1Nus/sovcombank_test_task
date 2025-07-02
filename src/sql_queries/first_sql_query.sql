@@ -1,5 +1,5 @@
-SELECT d.id AS debtor_id,
-       d.name AS debtor_name,
+SELECT d.name AS debtor_name,
+       d.inn AS inn,
        COUNT(mo.id) AS obligations_count
 FROM Debtor d
 JOIN ExtrajudicialBankruptcyMessage m ON m.debtor_id = d.id
