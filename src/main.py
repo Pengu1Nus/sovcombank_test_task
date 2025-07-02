@@ -7,6 +7,7 @@
 import gzip
 import os
 import xml.etree.ElementTree as ET
+from pprint import pprint
 
 from address_parser import parse_address
 
@@ -298,4 +299,4 @@ def parse_messages(file_path):
 
 
 if __name__ == '__main__':
-    print(parse_messages(FILE_PATH))
+    pprint(parse_messages(FILE_PATH))
