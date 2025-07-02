@@ -11,6 +11,8 @@ dependencies = [
     "natasha (==1.4.0)",
     "setuptools (==79.0.0)",
     "pymysql (>=1.1.1,<2.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
 ]
 
 
